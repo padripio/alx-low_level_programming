@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-    char *letters = "abcdefghijklmnopqrstuvwxyz";  // Pointer to the alphabet string
+    char *letters = "abcdefghijklmnopqrstuvwxyz"; 
     int i;
 
     for (i = 0; letters[i] != '\0'; i++)
     {
-        putchar(letters[i]);  // Print each character of the alphabet
+        putchar(letters[i]);  
     }
     
-    putchar('\n');  // Print a newline character at the end
+    putchar('\n'); 
 
     return 0;
 }
