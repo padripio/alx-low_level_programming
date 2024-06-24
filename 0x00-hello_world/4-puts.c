@@ -10,10 +10,11 @@
  */
 int main(void)
 {
-    char *string1 = '"Programming is like building a multilingual puzzle\n';
+    char *string1 = "\"Programming is like building a multilingual puzzle";
 
     /* Print the string using puts */
     puts(string1);
+    puts("\n");
 
     return (0);
 }
