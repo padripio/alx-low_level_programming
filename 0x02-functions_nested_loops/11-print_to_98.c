@@ -25,16 +25,31 @@ void print_number(int n)
  */
 void print_to_98(int n)
 {
-    while (n < 98)
+     if (n <= 98)
     {
-        print_number(n);
-        putchar(',');
-        putchar(' ');
-        n++;
+        while (n <= 98)
+        {
+            print_number(n);
+            if (n != 98)
+            {
+                putchar(',');
+                putchar(' ');
+            }
+            n++;
+        }
     }
-    if (n == 98)
+    else
     {
-        print_number(n);
+        while (n >= 98)
+        {
+            print_number(n);
+            if (n != 98)
+            {
+                putchar(',');
+                putchar(' ');
+            }
+            n--;
+        }
     }
     putchar('\n');
 }
