@@ -20,7 +20,7 @@ int main(void)
     int result;
 
     result = _islower(108);  
-    character = result ? 'y' : 'n'; // Assigns 'y' for true (lowercase) and 'n' for false (not lowercase)
+    character = result ? 'y' : 'n'; 
     putchar(character);
     putchar('\n');
 
