@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * _islower - Checks if a character is a lowercase letter.
@@ -15,10 +16,9 @@ int main(void)
     int result;
 
     result = _islower(108);  
-    character = result ? 'y' : 'n'; 
-    putchar(character);
-    putchar('\n');
-
+    
+    putchar(result);
+    
     return 0;
 }
 
