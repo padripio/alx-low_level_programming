@@ -10,17 +10,6 @@
 int _islower(int c);
 
 
-int main(void)
-{
-    char character;
-    int result;
-
-    result = _islower(108);  
-    
-    putchar(result);
-    
-    return 0;
-}
 
 int _islower(int c)
 {
