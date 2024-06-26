@@ -44,9 +44,5 @@ void print_to_98(int n)
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-    print_to_98(70);
-    return (0);
-}
+
 
