@@ -11,17 +11,17 @@ int print_sign(int n)
 {
         if (n > 0)
     {
-        _putchar('+');  // Print '+' for positive number
+        _putchar('+'); 
         return 1;
     }
     else if (n < 0)
     {
-        _putchar('-');  // Print '-' for negative number
+        _putchar('-');  
         return -1;
     }
     else
     {
-        _putchar('0');  // Print '0' for zero
+        _putchar('0'); 
         return 0;
     }
 }
