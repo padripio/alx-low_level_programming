@@ -24,10 +24,4 @@ int _isalpha(int c)
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-    putchar(_isalpha(108) + '0');
-    putchar('\n');
-    return 0;
-}
 

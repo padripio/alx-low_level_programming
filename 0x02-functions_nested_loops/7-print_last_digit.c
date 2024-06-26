@@ -20,13 +20,5 @@ int print_last_digit(int n)
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-    int ld;
 
-    ld = print_last_digit(5);
-    putchar(ld + '0');
-    putchar('\n');
-    return (0);
-}
 

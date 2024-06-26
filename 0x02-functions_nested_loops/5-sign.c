@@ -11,11 +11,11 @@ int print_sign(int n)
 {
     if (n > 0)
     {
-        return (1);
+        return ('+');
     }
     else if (n < 0)
     {
-        return (-1);
+        return ('-');
     }
     else
     {
@@ -28,24 +28,4 @@ int print_sign(int n)
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-    int sign;
-
-    sign = print_sign(5);
-    if (sign == 1)
-    {
-        putchar('+');
-    }
-    else if (sign == -1)
-    {
-        putchar('-');
-    }
-    else
-    {
-        putchar('0');
-    }
-    putchar('\n');
-    return (0);
-}
 

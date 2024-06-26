@@ -21,13 +21,5 @@ int add(int x, int y)
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-    int s;
 
-    s = add(3, 3);
-    putchar(s + '0');
-    putchar('\n');
-    return (0);
-}
 
